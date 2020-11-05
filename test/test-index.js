@@ -20,7 +20,7 @@ describe('index.html', () => {
             const img = document.querySelector('img')
             expect(img).to.exist
         })
-        it('image tag should have a src attribute that points to the kitting image', () => {
+        it('image tag should have a src attribute that points to the kittin image', () => {
             const img = document.querySelector('img')
             expect(img).to.have.attribute('src', 'https://bit.ly/fcc-relaxing-cat')           
         })
